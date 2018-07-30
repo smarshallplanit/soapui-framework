@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="40db81ec-cf3b-485f-8e44-02b3303b0214" activeEnvironment="Default" name="Project" resourceRoot="${projectDir}" soapui-version="5.4.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.TestRunnerAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Report Format(s)" value=""/>
+  <con:entry key="Host:Port" value=""/>
+  <con:entry key="Export JUnit Results" value="true"/>
+  <con:entry key="Export All" value="false"/>
+  <con:entry key="Save After" value="false"/>
+  <con:entry key="Add Settings" value="false"/>
+  <con:entry key="WSS Password Type" value=""/>
+  <con:entry key="TestSuite" value="SCENARIOS"/>
+  <con:entry key="Endpoint" value=""/>
+  <con:entry key="Select Report Type" value=""/>
+  <con:entry key="System Properties" value=""/>
+  <con:entry key="Password" value=""/>
+  <con:entry key="Print Report" value="true"/>
+  <con:entry key="Open Report" value="false"/>
+  <con:entry key="Export JUnit Results with test properties" value="true"/>
+  <con:entry key="Global Properties" value=""/>
+  <con:entry key="Project Properties" value=""/>
+  <con:entry key="Project Password" value=""/>
+  <con:entry key="TestCase" value="&lt;all>"/>
+  <con:entry key="Username" value=""/>
+  <con:entry key="user-settings.xml Password" value=""/>
+  <con:entry key="TestRunner Path" value=""/>
+  <con:entry key="Environment" value="Default"/>
+  <con:entry key="Coverage Report" value="false"/>
+  <con:entry key="Enable UI" value="false"/>
+  <con:entry key="Root Folder" value="C:\MvnProject\TEL.tests"/>
+  <con:entry key="Ignore Errors" value="false"/>
+  <con:entry key="Domain" value=""/>
+  <con:entry key="Tool Args" value=""/>
+  <con:entry key="Save Project" value="false"/>
+</xml-fragment>]]></con:setting>
+  </con:settings>
+  <con:interface xsi:type="con:RestService" id="824fa86f-931f-4f52-9e6f-425200edcb8a" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://petstore.swagger.io" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <con:settings/>
+    
+    <con:definitionCache type="TEXT" rootPart=""/><con:endpoints>
+      <con:endpoint>http://petstore.swagger.io</con:endpoint>
+    </con:endpoints>
+    <con:resource name="V2" path="/v2/user" id="1f4be792-11ea-4bd8-ada1-1775a000db76">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="V2 1" id="98677853-85d3-4156-80f2-b9574c10dd29" method="POST">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="FAULT">
+          <con:mediaType>application/xml</con:mediaType>
+          <con:status>405</con:status>
+          <con:params/>
+          <con:element>apiResponse</con:element>
+        </con:representation>
+        <con:representation type="REQUEST">
+          <con:mediaType>application/json</con:mediaType>
+          <con:params/>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+        </con:representation>
+        <con:representation type="FAULT">
+          <con:mediaType>application/json</con:mediaType>
+          <con:status>400 500</con:status>
+          <con:params/>
+          <con:element xmlns:v2="http://petstore.swagger.io/v2">v2:Fault</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="c4702607-babf-40c1-bdcf-585e739dddcc" mediaType="application/json" postQueryString="false">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:request>{
+  "id": 0,
+  "username": "string",
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string",
+  "phone": "string",
+  "userStatus": 0
+}</con:request>
+          <con:originalUri>http://petstore.swagger.io/v2/user</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="inventory" path="v2/store/inventory" id="2b47e067-10ef-4060-ba71-05a01a44b6eb">
+      <con:settings/>
+      <con:parameters/>
+      <con:method name="Method 1" id="84775176-d62e-47eb-a388-92bd3af527ff" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="FAULT">
+          <con:mediaType>text/html</con:mediaType>
+          <con:status>404</con:status>
+          <con:params/>
+          <con:element>html</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+          <con:element xmlns:inv="http://petstore.swagger.io/store/inventory">inv:Response</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="fa606929-989f-4082-aee4-acc74dd62565" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://petstore.swagger.io/store/inventory</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters/>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="findByStatus" path="/v2/pet/findByStatus" id="54c794bc-2ca3-40eb-82cf-173774f95454">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter>
+          <con:name>status</con:name>
+          <con:value/>
+          <con:style>QUERY</con:style>
+          <con:default/>
+          <con:description xsi:nil="true"/>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="Method 1" id="03c1f95d-07c7-4c83-a066-1c783998a261" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+          <con:element>Response</con:element>
+        </con:representation>
+        <con:request name="Request 1" id="b4c41e72-2638-4d23-ad4d-bc6d57b2dc06" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://petstore.swagger.io/v2/pet/findByStatus</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters>
+            <entry key="status" value="available" xmlns="http://eviware.com/soapui/config"/>
+          </con:parameters>
+          <con:parameterOrder>
+            <con:entry>status</con:entry>
+          </con:parameterOrder>
+        </con:request>
+      </con:method>
+    </con:resource>
+    <con:resource name="{username}" path="/v2/user/{username}" id="80d3c7fc-c3f0-49c4-b3c8-e44eb045709d">
+      <con:settings/>
+      <con:parameters>
+        <con:parameter>
+          <con:name>username</con:name>
+          <con:value>username</con:value>
+          <con:style>TEMPLATE</con:style>
+          <con:default>username</con:default>
+        </con:parameter>
+      </con:parameters>
+      <con:method name="Method 1" id="b53332af-3599-4817-9df0-99d7eb79e975" method="GET">
+        <con:settings/>
+        <con:parameters/>
+        <con:representation type="FAULT">
+          <con:mediaType>text/html</con:mediaType>
+          <con:status>404</con:status>
+          <con:params/>
+          <con:element>html</con:element>
+        </con:representation>
+        <con:representation type="RESPONSE">
+          <con:mediaType>application/json</con:mediaType>
+          <con:status>200</con:status>
+          <con:params/>
+          <con:element xmlns:bob="http://petstore.swagger.io/user/bob">bob:Response</con:element>
+        </con:representation>
+        <con:representation type="FAULT">
+          <con:mediaType>application/xml</con:mediaType>
+          <con:status>405</con:status>
+          <con:params/>
+          <con:element>apiResponse</con:element>
+        </con:representation>
+        <con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>404</con:status><con:params/><con:element xmlns:bob="http://petstore.swagger.io/user/bob">bob:Fault</con:element></con:representation><con:request name="Request 1" id="4972a9d4-11fe-4e34-b9f0-27400ae6db96" mediaType="application/json">
+          <con:settings>
+            <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+          </con:settings>
+          <con:endpoint>http://petstore.swagger.io</con:endpoint>
+          <con:request/>
+          <con:originalUri>http://petstore.swagger.io/user/bob</con:originalUri>
+          <con:credentials>
+            <con:authType>No Authorization</con:authType>
+          </con:credentials>
+          <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+          <con:jmsPropertyConfig/>
+          <con:parameters>
+            <entry key="username" value="user1" xmlns="http://eviware.com/soapui/config"/>
+          </con:parameters>
+        </con:request>
+      </con:method>
+    <con:method name="updateuser" id="31b418bd-c15e-44f4-94be-0fa70837a510" method="PUT"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>500</con:status><con:params/><con:element xmlns:user="http://petstore.swagger.io/v2/user/username">user:Fault</con:element></con:representation><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:request name="updateuser" id="da319af7-2d62-4d03-b490-61326db667bb" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{
+  "id": 0,
+  "username": "string",
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string",
+  "phone": "string",
+  "userStatus": 0
+}</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource>
+  </con:interface>
+  <con:testSuite id="e52e6c84-4d78-444a-af60-d50cd4ecd6ff" name="SCRIPTS">
+    <con:settings/>
+    <con:runType>PARALLELL</con:runType>
+    <con:testCase id="4c36a58d-2b58-40e2-9708-8614fc0ad200" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="DataDriver" searchProperties="true">
+      <con:settings/>
+      <con:testStep type="groovy" name="data driver" id="0d41b24b-6669-48a5-84eb-a99488ac2c1a">
+        <con:settings/>
+        <con:config><script>// IMPORT THE LIBRARIES WE NEED
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+
+ 
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+ 
+def counter,next,previous,size,columns //Variables used to handle the loop and to move inside the file
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+
+def projectDir = groovyUtils.projectPath
+
+
+def filename =context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("FileName")
+ 
+Workbook workbook = Workbook.getWorkbook(new File(projectDir+"/"+filename)) //file containing the data
+
+
+//Sheet sheet1 = workbook.getSheet(0) //save the first sheet in sheet1
+Sheet sheet1 = workbook.getSheet(context.getProperty("#CallingTestCaseRunner#").getTestCase().name.toString())
+//Sheet sheet1 = workbook.getSheet("datarequestloop")
+size= sheet1.getRows().toInteger() //get the number of rows, each row is a data set
+
+columns = sheet1.getColumns().toInteger() //number of columns
+
+counter = context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("Count").toString() //counter variable contains iteration number
+ 
+
+counter = counter.toInteger() 
+
+ 
+next = (counter > size-2? 0: counter+1) //set the next value
+
+
+//GET HEADERS
+
+def columnhead = []
+def n=  0
+while(columns!=n){
+
+Cell head = sheet1.getCell(n,0)//(column,row)
+header = head.getContents()
+columnhead.add(header)
+n++
+
+}
+log.info "HEADERS" + columnhead
+
+
+
+
+// OBTAINING THE DATA YOU NEED
+
+n = 1 
+col = 0
+def rowdata = []
+while(n!=size){
+	
+while (col!=columns){
+	
+Cell rdata = sheet1.getCell(col,counter)//(column,row) Top row 
+data	= rdata.getContents()
+rowdata.add('"'+data+'"')
+col++
+
+}
+n++
+
+}
+
+log.info "ROWDATA" + rowdata
+
+workbook.close() //close the file
+ 
+//Assigning the Property names and values 
+n = 0
+//
+while(n!=columns){
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnhead[n],rowdata[n])
+
+n++
+ 
+}
+
+
+
+
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("Count",next.toString())//increase Count value
+testRunner.testCase.testSuite.project.setPropertyValue("Count",next.toString())
+
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("Next",next.toString()) //set Next value on the properties step
+  
+//Decide if the test has to be run again or not
+ 
+if (counter == size-1)
+ 
+{
+
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","T")
+
+
+
+log.info "Setting the stoploop property now..."
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("Count","1")
+
+
+
+}
+ 
+else if (counter==0)
+ 
+{
+
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","F")
+
+}
+ 
+else
+ 
+{
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","F")
+
+}</script></con:config>
+      </con:testStep>
+      
+      <con:testStep type="groovy" name="Copy of data driver" id="73897f65-6f29-4108-af1b-ef46b1f34ac8" disabled="true">
+        <con:settings/>
+        <con:config><script><![CDATA[// IMPORT THE LIBRARIES WE NEED
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+
+ 
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+ 
+def counter,next,previous,size,columns //Variables used to handle the loop and to move inside the file
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+
+def projectDir = groovyUtils.projectPath
+
+
+def filename= testRunner.testCase.testSuite.project.getPropertyValue("FileName")
+//def filename2 = "C:/MvnProject/TEL.tests/newusers.xls"
+ 
+Workbook workbook = Workbook.getWorkbook(new File(projectDir+"/"+filename)) //file containing the data
+//Workbook workbook = Workbook.getWorkbook(new File(filename2))
+
+Sheet sheet1 = workbook.getSheet(0) //save the first sheet in sheet1
+ 
+size= sheet1.getRows().toInteger() //get the number of rows, each row is a data set
+
+columns = sheet1.getColumns().toInteger() //number of columns
+ 
+log.info context.getProperty("#CallingTestCaseRunner#").getTestCase().name +"&&&^^&&&&^^&&&^^&&&^^"
+log.info context.getProperty("#CallingTestCaseRunner#").getTestCase().getTestSuite().setPropertyValue("TEST","TESTING")
+
+context.getProperty("#CallingTestCaseRunner#").getTestCase().getTestSuite().setPropertyValue("COUNT","")
+//runner.setPropertyValue("Count","1")
+counter = testRunner.testCase.testSuite.project.getPropertyValue("Count").toString() //counter variable contains iteration number
+
+ 
+counter = counter.toInteger() //
+
+ 
+next = (counter > size-2? 0: counter+1) //set the next value
+
+
+//GET HEADERS
+
+def columnhead = []
+def n=  0
+while(columns!=n){
+
+Cell head = sheet1.getCell(n,0)//(column,row)
+header = head.getContents()
+columnhead.add(header)
+n++
+
+}
+log.info "HEADERS" + columnhead
+
+
+
+
+// OBTAINING THE DATA YOU NEED
+
+n = 1 
+col = 0
+def rowdata = []
+while(n!=size){
+	
+while (col!=columns){
+	
+Cell rdata = sheet1.getCell(col,counter)//(column,row) Top row 
+data	= rdata.getContents()
+rowdata.add(data)
+col++
+
+}
+n++
+
+
+	}
+
+log.info "ROWDATA" + rowdata
+
+workbook.close() //close the file
+ 
+//Assigning the Property names and values 
+n = 0
+//
+while(n!=columns){
+testRunner.testCase.testSuite.project.setPropertyValue(columnhead[n],rowdata[n])
+n++
+ 
+}
+
+ 
+testRunner.testCase.testSuite.project.setPropertyValue("Count", next.toString()) //increase Count value
+  
+testRunner.testCase.testSuite.project.setPropertyValue("Next", next.toString()) //set Next value on the properties step
+ 
+//Decide if the test has to be run again or not
+ 
+if (counter == size-1)
+ 
+{
+
+testRunner.testCase.testSuite.project.setPropertyValue("StopLoop","T")
+
+
+
+log.info "Setting the stoploop property now..."
+
+testRunner.testCase.testSuite.project.setPropertyValue("Count","1")
+
+}
+ 
+else if (counter==0)
+ 
+{
+
+
+//def runner = new com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner(testRunner.testCase, null)
+ testRunner.testCase.testSuite.project.setPropertyValue("StopLoop","F")
+///propTestStep.setPropertyValue("StopLoop", "F")
+ 
+}
+ 
+else
+ 
+{
+	
+testRunner.testCase.testSuite.project.setPropertyValue("StopLoop","F")
+
+ 
+}]]></script></con:config>
+      </con:testStep><con:tearDownScript/><con:properties>
+        <con:property>
+          <con:name>FileName</con:name>
+          <con:value>filter.xls</con:value>
+        </con:property>
+      </con:properties>
+    </con:testCase>
+    <con:testCase id="b13eab11-efb7-4e27-9f19-1d04debddef2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Loop" searchProperties="true">
+      <con:settings/>
+      <con:testStep type="groovy" name="loop" id="fca7365b-a922-41d4-aa9f-3e53abb10683">
+        <con:settings/>
+        <con:config><script>//def myTestCase = context.testCase
+ 
+def runner
+def goToTestCase
+
+endLoop = context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("StopLoop").toString()
+
+log.info "end loop value after get property  " + endLoop
+
+log.info context.getProperty("#CallingTestCaseRunner#").toString()
+if (endLoop.toString() != 'F')
+ 
+{
+log.info ("Exit Groovy Data Source Looper")
+}
+
+else
+{
+log.info "Running testcase again"
+goToTestCase = context.getProperty("#CallingTestCaseRunner#").testCase.testSuite.getPropertyValue("CurrentTestCase")
+log.info goToTestCase
+
+
+log.info context.getProperty("#CallingTestCaseRunner#")
+runner =  context.getProperty("#CallingTestCaseRunner#").gotoStep(0)
+}</script></con:config>
+      </con:testStep>
+      <con:properties/>
+    </con:testCase>
+    
+    <con:testCase id="53b8128d-5836-43b2-ba55-dc0296890eb0" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="LOGS" searchProperties="true">
+      <con:settings/>
+      <con:testStep type="groovy" name="exportLog" id="ab21f5f8-511d-4f9f-9100-4df5cfdd2953">
+        <con:settings/>
+        <con:config><script>def now = new java.util.Date() //getting current time
+String date = now.format("dd-MM-YY-HH_mm_ss")
+String day = now.format("YYYY-dd-MM")+"-LOGS"
+String time = now.format("HH-mm-ss")
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+def testCase =context.getProperty("#CallingTestCaseRunner#").getTestCase().name.toString()
+
+def projectDir = groovyUtils.projectPath+"/" //getting project path 
+
+
+
+//def logMonitor = com.eviware.soapui.SoapUI.logMonitor
+//log.info logMonitor=!null
+
+def logArea
+def errorlog
+def soapuilog
+if (com.eviware.soapui.SoapUI.logMonitor!=null){
+logArea=com.eviware.soapui.SoapUI.logMonitor.getLogArea("script log")
+errorlog=com.eviware.soapui.SoapUI.logMonitor.getLogArea("error log")
+soapuilog=com.eviware.soapui.SoapUI.logMonitor.getLogArea("SoapUI log")
+//def logArea = com.eviware.soapui.SoapUI.logMonitor.getLogArea( "script log" )
+}
+
+
+def LogFile = "ScriptLogs-"+time+".log"
+def ErrorFile = "ErrorLogs-"+time+".log"
+def SoapuiFile = "SoapULogs-"+time+".log"
+
+log.info LogFile
+def dayfolder = new File(projectDir+day)
+// If it doesn't exist
+if( !dayfolder.exists() ) {
+  // Create all folders up-to and including B
+  dayfolder.mkdirs()
+}
+
+LogFiles = new File( dayfolder,LogFile)
+LogFiles.createNewFile() //build the file 
+
+if(logArea !=null)
+{
+def model = logArea.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+LogFiles.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+errorfiles = new File( dayfolder,ErrorFile)
+errorfiles.createNewFile() //build the file 
+
+if(logArea !=null)
+{
+def model = errorlog.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+errorfiles.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}
+
+soapuifiles = new File( dayfolder,SoapuiFile)
+soapuifiles.createNewFile() //build the file 
+
+if(logArea !=null)
+{
+def model = soapuilog.model
+if(model.size > 0) {
+for(c in 0..(model.size-1))
+{
+soapuifiles.append(model.getElementAt(c).toString() + "\r\n")
+}
+}
+}</script></con:config>
+      </con:testStep>
+      
+      <con:properties/>
+    </con:testCase>
+    <con:testCase id="2890221c-d257-4766-a827-abd4b01157be" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="FilterDataDriver" searchProperties="true"><con:settings/><con:testStep type="groovy" name="filterdatadriver" id="06ac95df-1aba-4db9-bf96-47497d0db769"><con:settings/><con:config><script><![CDATA[// Assign properties based on a filter variable 
+
+// IMPORT THE LIBRARIES WE NEED
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+
+ 
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+ 
+def counter,next,previous,size,columns //Variables used to handle the loop and to move inside the file
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+
+def projectDir = groovyUtils.projectPath
+log.info projectDir
+
+def filename =context.getProperty("#CallingTestCaseRunner#").getTestCase().getTestSuite().getPropertyValue("FileName").toString()
+log.info filename
+
+//def filename = testRunner.testCase.getPropertyValue("FileName") 
+Workbook workbook = Workbook.getWorkbook(new File(projectDir+"/"+filename)) //file containing the data
+
+
+
+Sheet testcase = workbook.getSheet(context.getProperty("#CallingTestCaseRunner#").getTestCase().name.toString())
+//Sheet sheet1 = workbook.getSheet("createuser")
+Sheet common = workbook.getSheet("common")
+rowsTest= testcase.getRows().toInteger() //get the number of rows, each row is a data set
+rowsCommon= common.getRows().toInteger()
+columnsTest = testcase.getColumns().toInteger()
+columnsCommon = common.getColumns().toInteger()   //number of columns
+
+
+
+counter= context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("Count").toString()
+//counter = testRunner.testCase.getPropertyValue("Count").toString()
+counter = counter.toInteger() 
+next = (counter > rowsTest-2? 0: counter+1) //set the next value
+
+
+//GETTING KEY VALUES 
+def keys = []
+def k = 1
+def co = 0
+def add = 0 
+
+if(testcase.getCell(0,0).getContents().contains("uid_")&&columnsTest==1){ // don't need 2 ifs
+	while (rowsTest!=k){
+	Cell key = testcase.getCell(0,k)
+	keyValue= key.getContents()
+	keys.add(keyValue)
+	k++
+	add=1
+	}
+}
+else if (testcase.getCell(0,0).getContents().contains("uid_")&&columnsTest>1){
+	while(rowsTest!=k){
+	Cell key = testcase.getCell(0,k)
+     keyValue= key.getContents()
+     keys.add(keyValue)
+     k++
+	add = 1
+	}
+}
+else
+{
+add=0
+}
+
+//GET HEADERS from Common or Testcase. 
+def columnheadCommon = []
+def columnheadTest = []
+def n = 0
+def c =1
+if(keys.size==0){
+	
+while(columnsTest!=n){
+Cell head = testcase.getCell(n,0)
+header=head.getContents()
+columnheadTest.add(header.replaceAll("\\s",""))	
+n++	
+}
+}
+else if(add==1)
+{
+	while(columnsTest!=c){
+	Cell h = testcase.getCell(c,0)
+	testheader = h.getContents()
+	columnheadTest.add(testheader)
+	c++	
+	}
+	while(columnsCommon!=n){
+	
+	Cell head = common.getCell(n,0)//(column,row)
+	header = head.getContents()
+	columnheadCommon.add(header)
+	n++
+	}
+	
+	
+}
+else{
+while(columnsCommon!=n){
+
+Cell head = common.getCell(n,0)//(column,row)
+header = head.getContents()
+columnheadCommon.add(header)
+n++
+	}
+}
+
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("commonColumns",columnheadCommon.toString().replaceAll("\\s",""))
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("testColumns",columnheadTest.toString().replaceAll("\\s",""))
+
+//add list of common columns to custom properties - commonColumns
+//add list of test columns to custom properties - `
+
+//GETTING THE TEST ROWS FROM COMMON DATASHEET or not.....
+
+a = 0
+def testRows = []
+if(keys.size!=0){
+while(keys.size!=a){
+	for (int row = 0;row < rowsCommon ; row++)
+	for(int col=0;col<columnsCommon;col++)
+	if(common.getCell(col,row).getContents().equals(keys[a]))
+	{
+			testRow = common.getCell(col,row).getRow()
+			testColumn=common.getCell(col,row).getColumn()
+			testRows.add(testRow)	
+	}
+	a++	
+	}
+}
+
+//GETTING ROW DATA
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("testRows",testRows.toString().replaceAll("]",""))
+log.info context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("testRows")
+index = context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("index").toInteger()
+
+//index =testRunner.testCase.getPropertyValue("index").toInteger()
+n = 1
+col = 0
+clm = 0
+def rowdataCommon = []
+def rowdataTest = []
+
+if (keys.size==0){
+for (int rows=1;rows<=rowsTest-1;rows++) // may not need for loop
+while(col!=columnsTest){
+	Cell rdata = testcase.getCell(col,index)
+	data = rdata.getContents()
+	rowdataTest.add('"'+data+'"')
+	col++
+	}
+}
+else if(add==1)
+{
+	while(clm!=columnsTest){
+	Cell rdata = testcase.getCell(n,index)
+	data = rdata.getContents()
+	rowdataTest.add('"'+data+'"')
+	clm++
+}
+	n++
+	while (col!=columnsCommon){
+	
+	rdata = common.getCell(col,testRows[index])  //(column,row) // testRows[index] is null??
+	data	= rdata.getContents()
+	rowdataCommon.add('"'+data+'"')
+	col++
+
+} 
+n++
+}
+else{
+for (int keyrows = 0;keyrows <= testRows.size-1 ; keyrows++)
+while (col!=columnsCommon){
+
+Cell rdata = common.getCell(col,testRows[index])//(column,row) 
+
+data	= rdata.getContents()
+rowdataCommon.add('"'+data+'"')
+col++
+
+} 
+
+}
+index++
+
+
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("index",index.toString())
+//Asigning the row data to property 
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("rowdataCommon",rowdataCommon.toString())
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("rowdataTest",rowdataTest.toString())
+//testRunner.testCase.setPropertyValue("index",index.toString())
+
+		
+workbook.close() //close the file
+
+
+//SETTING PROPERTY VALUES
+p = 0
+v = 0
+l = 0
+s = 0
+if (keys.size==0){
+while(p!=columnsTest){
+
+//testRunner.testCase.setPropertyValue(columnheadTest[n],rowdataTest[n])
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadTest[p],rowdataTest[p])
+
+p++	
+}
+}
+else if (add==1){
+	while(v!=columnheadTest.size){
+//		testRunner.testCase.setPropertyValue(columnheadTest[n],rowdataTest[n])
+	     context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadTest[v],rowdataTest[v])		
+		v++
+		}
+	while(l!=columnsCommon){
+//		testRunner.testCase.setPropertyValue(columnheadCommon[n],rowdataCommon[n])
+		context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadCommon[l],rowdataCommon[l])	
+		l++	
+  }
+}
+else{
+while(s!=columnsCommon){
+//testRunner.testCase.setPropertyValue(columnhead[n],rowdata[n])
+log.info columnheadCommon[s] + " columnheadcommon ###"
+log.info rowdataCommon[s] + " rowdatacommon ###"
+//testRunner.testCase.setPropertyValue(columnhead[n],rowdata[n])
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadCommon[s],rowdataCommon[s])	
+s++
+
+}
+
+}
+
+//SHOULD THE SCRIPT BE RUN AGAIN? 
+//testRunner.testCase.setPropertyValue("Count",next.toString())
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("Count",next.toString())
+if (index == keys.size||index==rowsTest)
+{
+//testRunner.testCase.setPropertyValue("StopLoop","T")	
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","T")
+log.info "Setting the stoploop property now..."
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("index","1")
+}
+else if (index==0) 
+{
+//testRunner.testCase.setPropertyValue("StopLoop","F")		
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","F")
+}
+else
+{
+//testRunner.testCase.setPropertyValue("StopLoop","F")
+context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","F")
+}	]]></script></con:config></con:testStep><con:testStep type="groovy" name="Copy of filterdatadriver" id="0b15542e-9fe0-4b34-bfa9-4cd143960237" disabled="true"><con:settings/><con:config><script><![CDATA[// Assign properties based on a filter variable 
+
+// IMPORT THE LIBRARIES WE NEED
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+
+ 
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+ 
+def counter,next,previous,size,columns //Variables used to handle the loop and to move inside the file
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+
+def projectDir = groovyUtils.projectPath
+
+//def filename=context.getProperty("#CallingTestCaseRunner#").getTestCase().getTestSuite().getPropertyValue("FileName")
+def filename = testRunner.testCase.getPropertyValue("FileName") 
+Workbook workbook = Workbook.getWorkbook(new File(projectDir+"/"+filename)) //file containing the data
+
+
+
+//Sheet sheet1 = workbook.getSheet(context.getProperty("#CallingTestCaseRunner#").getTestCase().name.toString())
+Sheet sheet1 = workbook.getSheet("createuser")
+Sheet sheet2 = workbook.getSheet("common")
+rowsTest= sheet1.getRows().toInteger() //get the number of rows, each row is a data set
+rowsCommon= sheet2.getRows().toInteger()
+columnsTest = sheet1.getColumns().toInteger()
+columnsCommon = sheet2.getColumns().toInteger()   //number of columns
+
+
+
+//counter= context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("Count").toString()
+counter = testRunner.testCase.getPropertyValue("Count").toString()
+counter = counter.toInteger() 
+next = (counter > rowsTest-2? 0: counter+1) //set the next value
+
+
+//GETTING KEY VALUES 
+def keys = []
+def k = 1
+def co = 0
+def add = 0 
+
+if(sheet1.getCell(0,0).getContents().contains("uid_")&&columnsTest==1){
+	while (rowsTest!=k){
+	Cell key = sheet1.getCell(0,k)
+	keyValue= key.getContents()
+	keys.add(keyValue)
+	k++
+	add=1
+	}
+}
+else if (sheet1.getCell(0,0).getContents().contains("uid_")&&columnsTest>1){
+	while(rowsTest!=k){
+	Cell key = sheet1.getCell(0,k)
+     keyValue= key.getContents()
+     keys.add(keyValue)
+     k++
+	add = 1
+	}
+}
+else
+{
+add=0
+}
+
+
+
+
+
+//GET HEADERS from Common or Testcase. 
+def columnheadCommon = []
+def columnheadTest = []
+def n = 0
+def c =1
+if(keys.size==0){
+	
+while(columnsTest!=n){
+Cell head = sheet1.getCell(n,0)
+header=head.getContents()
+columnheadTest.add(header)	
+n++	
+log.info n 
+	}
+}
+else if(add==1)
+{
+	while(columnsTest!=c){
+	Cell h = sheet1.getCell(c,0)
+	testheader = h.getContents()
+	columnheadTest.add(testheader)
+	c++	
+}
+	while(columnsCommon!=n){
+	log.info n + " -N- "
+	Cell head = sheet2.getCell(n,0)//(column,row)
+	header = head.getContents()
+	columnheadCommon.add(header)
+	n++
+	}
+	
+	
+}
+else{
+while(columnsCommon!=n){
+
+Cell head = sheet2.getCell(n,0)//(column,row)
+header = head.getContents()
+columnheadCommon.add(header)
+n++
+	}
+}
+
+
+
+
+//GETTING THE TEST ROWS FROM COMMON DATASHEET or not.....
+
+a = 0
+def testRows = []
+if(keys.size!=0){
+while(keys.size!=a){
+	for (int row = 0;row < rowsCommon ; row++)
+	for(int col=0;col<columnsCommon;col++)
+	if(sheet2.getCell(col,row).getContents().equals(keys[a]))
+	{
+			testRow = sheet2.getCell(col,row).getRow()
+			testColumn=sheet2.getCell(col,row).getColumn()
+			testRows.add(testRow)
+		
+	}
+	a++	
+	}
+}
+
+
+//GETTING ROW DATA
+
+//index = context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("index").toInteger()
+index =testRunner.testCase.getPropertyValue("index").toInteger()
+n = 1
+col = 0
+clm = 0
+def rowdataCommon = []
+def rowdataTest = []
+
+if (keys.size==0){
+for (int rows=0;rows<=rowsTest-1;rows++)
+while(col!=columnsTest){
+	Cell rdata = sheet1.getCell(col,index)
+	data = rdata.getContents()
+	rowdataTest.add('"'+data+'"')
+	col++
+	}
+}
+else if(add==1)
+{
+	while(clm!=columnsTest){
+	Cell rdata = sheet1.getCell(n,index)
+	data = rdata.getContents()
+	rowdataTest.add('"'+data+'"')
+	clm++
+	}
+	n++
+	while (col!=columnsCommon){
+			
+	rdata = sheet2.getCell(col,testRows[index])//(column,row) 
+	data	= rdata.getContents()
+	rowdataCommon.add('"'+data+'"')
+	col++
+
+} 
+n++
+}
+else{
+for (int keyrows = 0;keyrows <= testRows.size-1 ; keyrows++)
+while (col!=columnsCommon){
+
+
+Cell rdata = sheet2.getCell(col,testRows[index])//(column,row) 
+
+data	= rdata.getContents()
+rowdataCommon.add('"'+data+'"')
+col++
+
+} 
+
+}
+index++
+
+
+
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("index",index.toString())
+testRunner.testCase.setPropertyValue("index",index.toString())
+
+		
+workbook.close() //close the file
+
+
+//SETTING PROPERTY VALUES
+p = 0
+v = 0
+l = 0
+s = 0
+if (keys.size==0){
+while(p!=columnsTest){
+
+testRunner.testCase.setPropertyValue(columnheadTest[p],rowdataTest[p])
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadTest[n],rowdataTest[n])
+
+p++	
+	}
+}
+else if (add==1){
+	while(v!=columnheadTest.size){
+	
+		
+		testRunner.testCase.setPropertyValue(columnheadTest[v],rowdataTest[v])
+//		context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadTest[n],rowdataTest[n])		
+		v++
+		}
+	while(l!=columnsCommon){
+		log.info columnheadCommon[l] + "COLUMNHEAD COMMON"	
+		testRunner.testCase.setPropertyValue(columnheadCommon[l],rowdataCommon[l])
+//		context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadCommon[n],rowdataCommon[n])	
+		l++	
+		}
+}
+else{
+while(s!=columnsCommon){
+//testRunner.testCase.setPropertyValue(columnhead[n],rowdata[n])
+log.info columnheadCommon[s] + " columnheadcommon ###"
+log.info rowdataCommon[s] + " rowdatacommon ###"
+testRunner.testCase.setPropertyValue(columnhead[s],rowdata[s])
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue(columnheadCommon[n],rowdataCommon[n])	
+s++
+
+}
+
+}
+//SHOULD THE SCRIPT BE RUN AGAIN? 
+
+testRunner.testCase.setPropertyValue("Count",next.toString())
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("Count",next.toString())
+if (index == keys.size||index==rowsTest)
+{
+testRunner.testCase.setPropertyValue("StopLoop","T")	
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","T")
+log.info "Setting the stoploop property now..."
+testRunner.testCase.setPropertyValue("index","0")
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("index","0")
+}
+else if (index==0) 
+{
+testRunner.testCase.setPropertyValue("StopLoop","F")		
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","F")
+}
+else
+{
+testRunner.testCase.setPropertyValue("StopLoop","F")
+//context.getProperty("#CallingTestCaseRunner#").getTestCase().setPropertyValue("StopLoop","F")
+}	]]></script></con:config></con:testStep><con:properties><con:property><con:name>FileName</con:name><con:value>data.xls</con:value></con:property><con:property><con:name>index</con:name><con:value>1</con:value></con:property><con:property><con:name>Count</con:name><con:value>2</con:value></con:property><con:property><con:name>StopLoop</con:name><con:value>F</con:value></con:property><con:property><con:name>id</con:name><con:value>"788"</con:value></con:property><con:property><con:name>firstname</con:name><con:value>"Lee"</con:value></con:property><con:property><con:name>lastname</con:name><con:value>"Bruce"</con:value></con:property><con:property><con:name>password</con:name><con:value>""82abc408-943c-47ac-aa09-733ce23c1bc9""</con:value></con:property><con:property><con:name>username</con:name><con:value>"user14"</con:value></con:property><con:property><con:name>new_password</con:name><con:value>"76e27c0e-9f2d-4132-8d3f-9f3b77d27ff0"</con:value></con:property><con:property><con:name>phone</con:name><con:value>"27519519"</con:value></con:property></con:properties></con:testCase><con:testCase id="812080ea-48c0-46c9-9701-d2cf4afc6eb3" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="updateprops" searchProperties="true"><con:settings/><con:testStep type="groovy" name="update" id="f4a54d87-4745-4fe4-a4ec-a0b25f76386c"><con:settings/><con:config><script><![CDATA[//properties = testRunner.testCase.testSuite.project.testSuites["SCRIPTS"].getTestCaseByName("FilterDataDriver")
+properties = context.getProperty("#CallingTestCaseRunner#").getTestCase()
+
+def verCode = UUID.randomUUID().toString()
+commonColumns = properties.getPropertyValue("commonColumns")
+testColumns = properties.getPropertyValue("testColumns")
+testRows = properties.getPropertyValue("testRows")
+def lc = commonColumns.split(',') 
+def tc = testColumns.split(',') 
+def tr = testRows.split(',')
+
+
+List <String> ComCol = Arrays.asList(lc)
+List <String> testCol = Arrays.asList(tc)
+//List <String> tRow = Arrays.asList(tr)
+
+
+//log.info list  + " ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+//
+//log.info list.indexOf("username") + " <<<<Index of USername "
+
+
+//
+//log.info cCol.indexOf("username")
+
+
+log.info lc instanceof String[]
+log.info tc instanceof String[]
+
+
+for(prop in properties.propertyNames) { 
+ if(prop.contains("new_"))
+ {
+   def (value1, updatedProp) = prop.tokenize('_')
+   log.info value1 + " value1"
+   log.info updatedProp  + " updatedProp"
+   
+   if(lc.toString().contains(updatedProp)){
+   	log.info " LOGGING LC ARRAY " + lc
+   	sheetname= "common"
+   	rowdata =  properties.getPropertyValue("rowdataCommon") //is an array of row numbers from filtereddatadriver then 
+   	
+   	row = properties.getPropertyValue("index").toInteger()
+  	commonRow = tr[row]
+  	value = properties.getPropertyValue(prop)
+   	properties.setPropertyValue("ValuesToUpdate",sheetname+":"+commonRow+"#"+ComCol.indexOf(updatedProp)+"="+value)
+   	log.info " SETTING PROPERTY VALUES TO UPDATE ::LC"
+   	
+   }
+
+   else if(tc.toString().contains(updatedProp))
+   { 
+   log.info  " LOGGING TC ARRAY " + tc
+   sheetname = 'testcase'
+   rowdata =  properties.getPropertyValue("rowdataTest")
+   row = properties.getPropertyValue("index").toInteger()
+   value = properties.getPropertyValue(prop)
+   properties.setPropertyValue("ValuesToUpdate",sheetname+':'+row+'#'+TestCol.indexOf(updatedProp)+'='+value)
+   log.info "SETTING PROPERTY VALUES TO UPDATE :::::TC"
+  
+   }
+   else
+  {
+  	log.info " NONE OF THE IF STATEMENTs HIT"
+  }
+  
+   }
+}
+
+
+ 
+   //(sheetname:row#Prop name=value)						
+   //CustomProperties ValuesToUpdate= sheetname:row#updatedProp=properties.getPropertyValue(updatedProp)
+
+   //lc.contains(Prop) sheetname='common'
+   //tc.contains(Prop) sheetname='testcase'
+   //CustomProperties ValuesToUpdate= ValuesToUpdate + 'demiliter' + sheetname:row#updatedProp=properties.getPropertyValue(prop)
+   
+   	
+      
+
+
+//add to Writesheet customproperty 'File, ValuesToUpdate'
+//log.info(File)
+//log.info(ValuesToUpdate)
+
+]]></script></con:config></con:testStep><con:properties/></con:testCase><con:testCase id="e8db5cce-bce6-4a1c-b590-d5dbf0dcde75" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="writesheet" searchProperties="true"><con:settings/><con:testStep type="groovy" name="write" id="832ed138-5429-44d5-be8d-fb7378de2250" disabled="true"><con:settings/><con:config><script>// Assign properties based on a filter variable 
+// IMPORT THE LIBRARIES WE NEED
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import jxl.Workbook;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+import jxl.write.Label;
+import jxl.write.WriteException;
+
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+ 
+def counter,next,previous,size,columns //Variables used to handle the loop and to move inside the file
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+
+def projectDir = groovyUtils.projectPath
+def verCode = UUID.randomUUID().toString()
+
+//def filename= testRunner.testCase.getPropertyValue("FileName")
+def filename=context.getProperty("#CallingTestCaseRunner#").getTestCase().getTestSuite().getPropertyValue("FileName")
+//log.info Workbook.getWorkbook(new File("C:/Example/filter.xls"))
+
+//def properties = testRunner.testCase.testSuite.project.testSuites["SCRIPTS"].getTestCaseByName("FilterDataDriver")
+properties = context.getProperty("#CallingTestCaseRunner#").getTestCase()
+
+//Workbook wbook = Workbook.getWorkbook(new File("C:/Example/data.xls"))
+
+filename = context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("FileName")
+
+Workbook wbook = Workbook.getWorkbook(new File(projectDir+"/"+filename))
+WritableWorkbook workbook = Workbook.createWorkbook(new File(projectDir+"/"+filename),wbook)
+
+WritableSheet sheet1 = workbook.getSheet(context.getProperty("#CallingTestCaseRunner#").getTestCase().name.toString())
+WritableSheet sheet2 = workbook.getSheet("common")
+//WritableSheet sheet1 = wwbCopy.getSheet(1)
+//Sheet sheet2 = wbook.getSheet(1)
+
+
+rows = sheet1.getRows().toInteger()
+columns = sheet1.getColumns().toInteger()
+
+//Get column with "new_" 
+def update = []
+def headers = []
+def k = 1
+def c = 0
+def add = 0
+// Looking for Columns with _new 
+while (columns!=k){
+if(sheet1.getCell(k,0).getContents().contains("new_"))
+{	
+updateCol = sheet1.getCell(k,0).getColumn()
+updateRow = sheet1.getCell(k,0).getRow()
+Cell newCell = sheet1.getCell(updateCol,updateRow)
+log.info newCell.getContents() + " : cell"
+def (value1, value2) = newCell.getContents().tokenize('_') //splitting the property title 
+update.add(newCell.getContents())
+headers.add(newCell.getContents())
+}
+else if (!sheet1.getCell(k,0).getContents().contains("new_")){
+col = sheet1.getCell(k,0).getColumn()
+row = sheet1.getCell(k,0).getRow()
+Cell other = sheet1.getCell(col,row)	
+headers.add(other.getContents())
+
+}
+k++
+}
+log.info update
+log.info headers 
+
+
+for (prop in properties.propertyNames)
+if (update.contains(prop)){
+	
+	i = update.indexOf(prop)
+	log.info i + " Index of prop"
+}
+
+//update columns based on updated properties 
+index = properties.getPropertyValue("index")
+n=1
+while (n!=rows){
+	
+	p = properties.getPropertyValue(update[i])// getting property value of the column in the update array eg : new_password
+	op = properties.getPropertyValue("username")
+	
+	log.info p + " property value" 
+	log.info update[i] + "######----######-----#######-----#######"
+	
+	Label ud = new Label (updateCol,n, p)
+	Label od = new Label (1,n,op)
+	
+	sheet1.addCell(ud)
+	sheet2.addCell(od)
+	
+	log.info sheet1.getCell(updateCol,n).getContents() + " updated cell "
+	log.info sheet2.getCell(1,n).getContents()+ "  another updated cell"
+	
+	n++
+}
+
+
+for(prop in properties.propertyNames)
+log.info prop
+
+workbook.write()
+log.info "SHEET UPDATED"
+workbook.close()
+
+
+// Closing the original work book
+wbook.close()
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="Copy of write" id="47042e78-f526-4533-b3ff-a5b50a0a6306" disabled="true"><con:settings/><con:config><script>// Assign properties based on a filter variable 
+// IMPORT THE LIBRARIES WE NEED
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+import jxl.Workbook;
+import jxl.write.WritableSheet;
+import jxl.write.WritableWorkbook;
+import jxl.write.Label;
+import jxl.write.WriteException;
+
+// DECLARE THE VARIABLES
+
+def myTestCase = context.testCase //myTestCase contains the test case
+ 
+def counter,next,previous,size,columns //Variables used to handle the loop and to move inside the file
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+
+def projectDir = groovyUtils.projectPath
+
+def verCode = UUID.randomUUID().toString()
+
+//def filename= testRunner.testCase.getPropertyValue("FileName")
+def filename=context.getProperty("#CallingTestCaseRunner#").getTestCase().getTestSuite().getPropertyValue("FileName")
+//log.info Workbook.getWorkbook(new File("C:/Example/filter.xls"))
+
+//def properties = testRunner.testCase.testSuite.project.testSuites["SCRIPTS"].getTestCaseByName("FilterDataDriver")
+properties = context.getProperty("#CallingTestCaseRunner#").getTestCase()
+
+//Workbook wbook = Workbook.getWorkbook(new File("C:/Example/data.xls"))
+
+filename = context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("FileName")
+
+Workbook wbook = Workbook.getWorkbook(new File(projectDir+"/"+filename))
+WritableWorkbook workbook = Workbook.createWorkbook(new File(projectDir+"/"+"updated_"+filename),wbook)
+
+WritableSheet testCase = workbook.getSheet(context.getProperty("#CallingTestCaseRunner#").getTestCase().name.toString())
+WritableSheet common = workbook.getSheet("common")
+//WritableSheet sheet1 = wwbCopy.getSheet(1)
+//Sheet sheet2 = wbook.getSheet(1)
+
+
+//Getting amount of Rows and Columns in the testCase Sheet
+rowsTest = testCase.getRows().toInteger()
+columnsTest = testCase.getColumns().toInteger()
+
+
+//Get the headers from the testCase with new_? 
+
+k= 0
+def testCaseHead = []
+while (columnsTest!=k){
+if(testCase.getCell(k,0).getContents().contains("new_"))
+{	
+updateCol = testCase.getCell(k,0).getColumn()
+updateRow = testCase.getCell(k,0).getRow()
+Cell newCell = testCase.getCell(updateCol,updateRow)
+
+def (value1, value2) = newCell.getContents().tokenize('_') //splitting the property title 
+testCaseHead.add(newCell.getContents())
+
+}
+k++
+}
+
+log.info testCaseHead
+
+//Getting amount of Rows and Columns in the common sheet 
+rowsCommon = common.getRows().toInteger()
+columnsCommon = common.getRows().toInteger()
+
+def commonHeaders = []
+n = 0
+while(columnsCommon!=n){
+Cell head = common.getCell(n,0)
+header = head.getContents()
+commonHeaders.add(header)
+n++
+}
+
+log.info commonHeaders 
+
+for(prop in properties.propertyNames)
+if (commonHeaders.contains(prop)){
+
+//update = properties.getPropertyValue(prop)
+ch = commonHeaders.indexOf(prop)
+log.info ch + " Index of prop"
+	
+}
+
+
+for(prop in properties.propertyNames){
+//while(rowsTest!=c){
+th = testCaseHead.indexOf(prop)	
+log.info properties.getPropertyValue("index").toInteger()   + " Index property "
+Label updateCell = new Label (th,properties.getPropertyValue("index").toInteger(),properties.getPropertyValue(prop))
+//Label updateCell = new Label (th,c,properties.getPropertyValue(prop))
+testCase.addCell(updateCell)
+
+}
+
+workbook.write()
+//log.info "SHEET UPDATED"
+workbook.close()
+// Closing the original work book
+wbook.close()
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="writeSheet" id="ded2c470-8530-45b1-9546-54917761ba89"><con:settings/><con:config><script>//Update sheet
+import com.eviware.soapui.support.XmlHolder
+import jxl.*
+import jxl.write.*
+
+properties = context.getProperty("#CallingTestCaseRunner#").getTestCase()
+
+def groovyUtils = new com.eviware.soapui.support.GroovyUtils(context)
+
+def projectDir = groovyUtils.projectPath
+
+filename = context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyValue("FileName")
+
+Workbook wbook = Workbook.getWorkbook(new File(projectDir+"/"+filename))
+
+WritableWorkbook workbook = Workbook.createWorkbook(new File(projectDir+"/"+"new_"+filename),wbook)
+
+fieldsToUpdate = properties.getPropertyValue("ValuesToUpdate").toString()
+
+
+log.info fieldsToUpdate
+
+
+sheetRegex = /(.*?)(?=\:)/
+rowRegex = /(?&lt;=\:)(.*?)(?=\#)/
+propRegex = /(?&lt;=\#)(.*?)(?=\=)/
+valueRegex = /(?&lt;=\")(.*?)(?=\")/
+
+
+sheet= (fieldsToUpdate=~sheetRegex)[0][1]
+row = (fieldsToUpdate=~rowRegex)[0][1]
+prop= (fieldsToUpdate =~propRegex)[0][1]
+value= (fieldsToUpdate=~valueRegex)[0][1]
+
+
+log.info sheet + " ******sheet*******"
+log.info row + " ******row*******"
+log.info prop + " ******prop*******"
+log.info value + " ******value*******"
+
+WritableSheet testCase = workbook.getSheet(context.getProperty("#CallingTestCaseRunner#").getTestCase().name.toString())
+WritableSheet common = workbook.getSheet("common")
+
+WritableSheet update = workbook.getSheet(sheet)
+
+
+
+Label updateCell = new Label(prop.toInteger(),row.toInteger(),value.toString())
+
+update.addCell(updateCell)
+workbook.write()
+
+stopLoop = properties.getPropertyValue("StopLoop")
+if(stopLoop.toString()!='T')
+{
+	
+log.info "WRITTEN TO SHEET @ row = " + row
+}
+
+else{
+	
+workbook.close()
+wbook.close()	
+}
+
+
+
+
+
+</script></con:config></con:testStep><con:testStep type="groovy" name="regex test" id="2af30aba-d3a6-4b42-9248-7e36b47393dc" disabled="true"><con:settings/><con:config><script>
+s = 'common:1#new_username="user15"'
+
+
+
+log.info matcher[0]
+
+</script></con:config></con:testStep><con:properties><con:property><con:name>File</con:name><con:value/></con:property><con:property><con:name>ValuesToUpdate</con:name><con:value/></con:property></con:properties></con:testCase><con:properties>
+      <con:property>
+        <con:name>FileName</con:name>
+        <con:value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">data.xls</con:value>
+      </con:property>
+      <con:property>
+        <con:name>Count</con:name>
+        <con:value>1</con:value>
+      </con:property>
+      <con:property>
+        <con:name>id</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:property>
+      <con:property>
+        <con:name>username</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:property>
+      <con:property>
+        <con:name>firstname</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:property>
+      <con:property>
+        <con:name>lastname</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:property>
+      <con:property>
+        <con:name>password</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:property>
+      <con:property>
+        <con:name>Next</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:property>
+      <con:property>
+        <con:name>StopLoop</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:property>
+    <con:property><con:name>TESTINGTESTING</con:name><con:value>123</con:value></con:property></con:properties>
+  </con:testSuite>
+  <con:testSuite id="03231a7f-d5ca-4321-8aa2-e0f8873bf02b" name="REQUESTS">
+    <con:settings/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="378963d2-76bb-4f87-b33d-6ea87e613f39" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="createuser" searchProperties="true">
+      <con:settings/>
+      <con:testStep type="restrequest" name="createuser" id="0afa1db3-6da2-4dc0-8cbe-68793c94850c">
+        <con:settings/>
+        <con:config service="http://petstore.swagger.io" resourcePath="/v2/user" methodName="V2 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:restRequest name="createuser" id="c4702607-babf-40c1-bdcf-585e739dddcc" mediaType="application/json" postQueryString="false">
+            <con:settings>
+              <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+            </con:settings>
+            <con:endpoint>http://petstore.swagger.io</con:endpoint>
+            <con:request>{
+  "id": ${#TestCase#id},
+  "username": ${#TestCase#username},
+  "firstName": ${#TestCase#firstname},
+  "lastName": ${#TestCase#lastName},
+  "email": ${#TestCase#email},
+  "password": ${#TestCase#password},
+  "phone": ${#TestCase#phone},
+  "userStatus": ${#TestCase#userStatus}
+}</con:request>
+            <con:originalUri>http://petstore.swagger.io/v2/user</con:originalUri>
+            <con:assertion type="Valid HTTP Status Codes" id="fd96f16d-bd6e-4906-a910-5f9463b69576" name="Valid HTTP Status Codes">
+              <con:configuration>
+                <codes>200</codes>
+              </con:configuration>
+            </con:assertion>
+            <con:credentials>
+              <con:authType>No Authorization</con:authType>
+            </con:credentials>
+            <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+            <con:jmsPropertyConfig/>
+            <con:parameters/>
+          </con:restRequest>
+        </con:config>
+      </con:testStep>
+      <con:testStep type="groovy" name="Groovy Script" id="09ae4cfe-c7f8-4bbd-8597-4786b32d45a8" disabled="true">
+        <con:settings/>
+        <con:config><script>
+log.info "created user: "  +  testRunner.testCase.getPropertyValue("username")</script></con:config>
+      </con:testStep>
+      <con:setupScript>//def testCaseProperties= context.getProperty("#CallingTestCaseRunner#").getTestCase().getPropertyList()
+//for(tsProperty in testCaseProperties ) {
+//testRunner.testCase.setPropertyValue(tsProperty.getName(),tsProperty.getValue())	
+//}
+
+
+
+
+
+
+</con:setupScript><con:properties><con:property><con:name>id</con:name><con:value>"2123"</con:value></con:property><con:property><con:name>username</con:name><con:value>"username1"</con:value></con:property><con:property><con:name>firstname</con:name><con:value>"sam"</con:value></con:property><con:property><con:name>lastName</con:name><con:value>"marshall"</con:value></con:property><con:property><con:name>email</con:name><con:value>"user@mail.com"</con:value></con:property><con:property><con:name>password</con:name><con:value>""</con:value></con:property><con:property><con:name>phone</con:name><con:value>"0800123456"</con:value></con:property><con:property><con:name>userStatus</con:name><con:value>0</con:value></con:property></con:properties>
+    </con:testCase>
+    <con:testCase id="6a3041ae-9dd9-44eb-9c3c-9ff2e7a593de" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="updateuser" searchProperties="true"><con:settings/><con:testStep type="restrequest" name="updateuser" id="0b32e759-6036-425a-9abf-172ac5e3eaad"><con:settings/><con:config service="http://petstore.swagger.io" resourcePath="/v2/user/{username}" methodName="updateuser" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="updateuser" id="da319af7-2d62-4d03-b490-61326db667bb" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{
+  "id": ${#TestCase#id},
+  "username": ${#TestCase#new_username},
+  "firstName": ${#TestCase#firstname},
+  "lastName": ${#TestCase#lastname},
+  "email": ${#TestCase#email},
+  "password":${#TestCase#password},
+  "phone": ${#TestCase#phone},
+  "userStatus": 0
+}</con:request><con:originalUri>http://petstore.swagger.io/v2/user/username</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="username" value="${#TestCase#username}" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:restRequest></con:config></con:testStep><con:properties><con:property><con:name>id</con:name><con:value/></con:property><con:property><con:name>username</con:name><con:value/></con:property><con:property><con:name>new_username</con:name><con:value/></con:property><con:property><con:name>firstname</con:name><con:value/></con:property><con:property><con:name>lastname</con:name><con:value/></con:property><con:property><con:name>email</con:name><con:value/></con:property><con:property><con:name>password</con:name><con:value/></con:property><con:property><con:name>phone</con:name><con:value/></con:property></con:properties></con:testCase><con:properties/>
+  </con:testSuite>
+  <con:testSuite id="77fb8dbc-c04c-44cd-a371-33e26237725b" name="SCENARIOS">
+    <con:settings/>
+    <con:runType>SEQUENTIAL</con:runType>
+    <con:testCase id="d6116b58-24d6-4ce0-a51c-617d7032e49b" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="createuser" searchProperties="true">
+      <con:description>Testing the looping through data and sending requests
+</con:description><con:settings/>
+      <con:testStep type="calltestcase" name="datadriver" id="8ddcc35d-1234-4ec1-b5c4-0dca54f125cf" disabled="true">
+        <con:settings/>
+        <con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:targetTestCase>4c36a58d-2b58-40e2-9708-8614fc0ad200</con:targetTestCase>
+          <con:properties>
+            <con:property>
+              <con:name>FileName</con:name>
+            <con:value>users.xls</con:value></con:property>
+          </con:properties>
+          <con:returnProperties/>
+          <con:runMode>PARALLELL</con:runMode>
+        </con:config>
+      </con:testStep>
+      
+      
+      <con:testStep type="calltestcase" name="filtereddatadriver" id="e1acb0a9-7660-4a54-a6e7-db3f7ea93dfb"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>2890221c-d257-4766-a827-abd4b01157be</con:targetTestCase><con:properties><con:property><con:name>FileName</con:name><con:value>data.xls</con:value></con:property><con:property><con:name>index</con:name></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>StopLoop</con:name></con:property><con:property><con:name>id</con:name></con:property><con:property><con:name>firstname</con:name></con:property><con:property><con:name>lastname</con:name></con:property><con:property><con:name>password</con:name></con:property><con:property><con:name>username</con:name></con:property><con:property><con:name>new_password</con:name></con:property><con:property><con:name>phone</con:name></con:property></con:properties><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep>
+      
+      
+      <con:testStep type="transfer" name="Property Transfer" id="b9528b92-8e72-456a-ae71-da14622581fd"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>id</con:name><con:sourceType>id</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>id</con:targetType><con:targetStep>createuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>username</con:name><con:sourceType>username</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>username</con:targetType><con:targetStep>createuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>firstname</con:name><con:sourceType>firstname</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>firstname</con:targetType><con:targetStep>createuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>lastName</con:name><con:sourceType>lastname</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>lastname</con:targetType><con:targetStep>createuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>password</con:name><con:sourceType>password</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>password</con:targetType><con:targetStep>createuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep>
+      <con:testStep type="calltestcase" name="createuser" id="7a8d18df-6627-4724-9c1a-949ef14ffc73">
+        <con:settings/>
+        <con:config xsi:type="con:RunTestCaseStep" ignoreEmptyProperties="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:targetTestCase>378963d2-76bb-4f87-b33d-6ea87e613f39</con:targetTestCase>
+          <con:properties><con:property><con:name>id</con:name><con:value>"794"</con:value></con:property><con:property><con:name>username</con:name><con:value>"user20"</con:value></con:property><con:property><con:name>firstname</con:name><con:value>"Larry"</con:value></con:property><con:property><con:name>lastname</con:name><con:value>"Bird"</con:value></con:property><con:property><con:name>email</con:name></con:property><con:property><con:name>password</con:name><con:value>"Password132"</con:value></con:property><con:property><con:name>phone</con:name></con:property><con:property><con:name>userStatus</con:name></con:property></con:properties>
+          <con:returnProperties/>
+          <con:runMode>PARALLELL</con:runMode>
+        </con:config>
+      </con:testStep><con:testStep type="calltestcase" name="loop" id="90c9d2ef-8f39-4150-b98e-630121209614">
+        <con:settings/>
+        <con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <con:targetTestCase>b13eab11-efb7-4e27-9f19-1d04debddef2</con:targetTestCase>
+          <con:properties/>
+          <con:returnProperties/>
+          <con:runMode>PARALLELL</con:runMode>
+        </con:config>
+      </con:testStep><con:testStep type="calltestcase" name="logs" id="dec549c3-b48e-4e10-8690-6051dddaa75f"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>53b8128d-5836-43b2-ba55-dc0296890eb0</con:targetTestCase><con:properties/><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:setupScript>testRunner.testCase.testSuite.setPropertyValue("CurrentTestCase",context.testCase.name)
+//com.eviware.soapui.SoapUI.logMonitor.getLogArea("script log").clear()</con:setupScript><con:tearDownScript/><con:properties><con:property><con:name>Next</con:name><con:value>0</con:value></con:property><con:property><con:name>StopLoop</con:name><con:value>T</con:value></con:property><con:property><con:name>FileName</con:name><con:value>users.xls</con:value></con:property><con:property><con:name>index</con:name><con:value>1</con:value></con:property><con:property><con:name>Count</con:name><con:value>2</con:value></con:property><con:property><con:name>new_password</con:name><con:value>"world"</con:value></con:property><con:property><con:name>username</con:name><con:value>"user20"</con:value></con:property><con:property><con:name>firstname</con:name><con:value>"Larry"</con:value></con:property><con:property><con:name>lastname</con:name><con:value>"Bird"</con:value></con:property><con:property><con:name>password</con:name><con:value>"Password132"</con:value></con:property><con:property><con:name>phone</con:name><con:value>"28708707"</con:value></con:property><con:property><con:name>id</con:name><con:value>"794"</con:value></con:property><con:property><con:name>commonColumns</con:name><con:value>[id, username, firstname, lastname, password, phone]</con:value></con:property><con:property><con:name>testColumns</con:name><con:value>[new_password]</con:value></con:property><con:property><con:name>testRows</con:name><con:value>[3, 6, 9]</con:value></con:property><con:property><con:name>rowdataCommon</con:name><con:value>["794", "user20", "Larry", "Bird", "Password132", "28708707"]</con:value></con:property><con:property><con:name>rowdataTest</con:name><con:value>["world", "world"]</con:value></con:property></con:properties>
+    </con:testCase>
+    <con:testCase id="47918bad-2eed-498b-8320-f3affb8981f9" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="testcase" searchProperties="true"><con:settings/><con:testStep type="calltestcase" name="Data" id="64847d93-a91e-464d-852e-1f138733f17d"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>2890221c-d257-4766-a827-abd4b01157be</con:targetTestCase><con:properties><con:property><con:name>FileName</con:name></con:property><con:property><con:name>index</con:name></con:property><con:property><con:name>Count</con:name></con:property><con:property><con:name>StopLoop</con:name></con:property><con:property><con:name>id</con:name></con:property><con:property><con:name>firstname</con:name></con:property><con:property><con:name>lastname</con:name></con:property><con:property><con:name>password</con:name></con:property><con:property><con:name>username</con:name></con:property><con:property><con:name>new_password</con:name></con:property><con:property><con:name>phone</con:name></con:property></con:properties><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="2a4a273d-6df8-4d63-a326-b55468c66d3c"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false" disabled="true"><con:name>prop</con:name><con:sourceType>property</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetStep>request</con:targetStep><con:type>XPATH</con:type><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="calltestcase" name="request" id="89f0057c-0930-4cc4-a998-5aefc7f512b9"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>378963d2-76bb-4f87-b33d-6ea87e613f39</con:targetTestCase><con:properties><con:property><con:name>id</con:name></con:property><con:property><con:name>username</con:name></con:property><con:property><con:name>firstname</con:name></con:property><con:property><con:name>lastName</con:name></con:property><con:property><con:name>email</con:name></con:property><con:property><con:name>password</con:name></con:property><con:property><con:name>phone</con:name></con:property><con:property><con:name>userStatus</con:name></con:property></con:properties><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:testStep type="calltestcase" name="loop" id="8d8b2e9d-aa0b-4f13-bf98-e638b6bac4bc"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>b13eab11-efb7-4e27-9f19-1d04debddef2</con:targetTestCase><con:properties/><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:properties><con:property><con:name>FileName</con:name><con:value>users.xls</con:value></con:property><con:property><con:name>Count</con:name><con:value>10</con:value></con:property><con:property><con:name>index</con:name><con:value>1</con:value></con:property><con:property><con:name>property</con:name><con:value>"prop10"</con:value></con:property><con:property><con:name>StopLoop</con:name><con:value>T</con:value></con:property><con:property><con:name>property2</con:name><con:value>"p30"</con:value></con:property></con:properties></con:testCase><con:testCase id="027a0fc5-af13-426f-ae47-7cc23945b9f2" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="updateuser" searchProperties="true"><con:settings/><con:testStep type="calltestcase" name="filtereddatadriver" id="e721ca14-95b6-41af-a05e-ac082a8ee699"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>2890221c-d257-4766-a827-abd4b01157be</con:targetTestCase><con:properties><con:property><con:name>FileName</con:name></con:property><con:property><con:name>index</con:name></con:property><con:property><con:name>Count</con:name></con:property><con:property><con:name>StopLoop</con:name></con:property><con:property><con:name>id</con:name></con:property><con:property><con:name>firstname</con:name></con:property><con:property><con:name>lastname</con:name></con:property><con:property><con:name>password</con:name></con:property><con:property><con:name>username</con:name></con:property><con:property><con:name>new_password</con:name></con:property><con:property><con:name>phone</con:name></con:property></con:properties><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:testStep type="transfer" name="Property Transfer" id="65160ca3-d4fb-4a84-a3ab-114e5eb3482c"><con:settings/><con:config xsi:type="con:PropertyTransfersStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>id</con:name><con:sourceType>id</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>id</con:targetType><con:targetStep>updateuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>new_username</con:name><con:sourceType>new_username</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>new_username</con:targetType><con:targetStep>updateuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>firstname</con:name><con:sourceType>firstname</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>firstname</con:targetType><con:targetStep>updateuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>lastname</con:name><con:sourceType>lastname</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>lastname</con:targetType><con:targetStep>updateuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>password</con:name><con:sourceType>password</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>password</con:targetType><con:targetStep>updateuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers><con:transfers setNullOnMissingSource="true" transferTextContent="true" failOnError="true" ignoreEmpty="false" transferToAll="false" entitize="false" transferChildNodes="false"><con:name>phone</con:name><con:sourceType>phone</con:sourceType><con:sourceStep>#TestCase#</con:sourceStep><con:targetType>phone</con:targetType><con:targetStep>updateuser</con:targetStep><con:upgraded>true</con:upgraded></con:transfers></con:config></con:testStep><con:testStep type="calltestcase" name="updateuser" id="c7f3e927-bada-494c-b002-e027bc4c4706"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>6a3041ae-9dd9-44eb-9c3c-9ff2e7a593de</con:targetTestCase><con:properties><con:property><con:name>id</con:name><con:value>"791"</con:value></con:property><con:property><con:name>username</con:name></con:property><con:property><con:name>new_username</con:name><con:value>"14user"</con:value></con:property><con:property><con:name>firstname</con:name><con:value>"Monica"</con:value></con:property><con:property><con:name>lastname</con:name><con:value>"Jung"</con:value></con:property><con:property><con:name>email</con:name><con:value xsi:nil="true"/></con:property><con:property><con:name>password</con:name><con:value>"Password129"</con:value></con:property><con:property><con:name>phone</con:name><con:value>"28114113"</con:value></con:property></con:properties><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:testStep type="calltestcase" name="update" id="ae78b9c0-d2e0-47ab-bb64-cc537c477b4c"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>812080ea-48c0-46c9-9701-d2cf4afc6eb3</con:targetTestCase><con:properties/><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="47f6e998-02db-4948-a4f4-4dc24cfa3308" disabled="true"><con:settings/><con:config><script>//properties = context.getProperty("#CallingTestCaseRunner#").getTestCase()
+def properties = testRunner.testCase.testSuite.project.testSuites["SCRIPTS"].getTestCaseByName("FilterDataDriver")
+
+for(prop in properties.propertyNames)
+log.info prop
+</script></con:config></con:testStep><con:testStep type="calltestcase" name="write" id="12e2b4f4-dfdd-4a47-a0b6-4cba62f5477a"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>e8db5cce-bce6-4a1c-b590-d5dbf0dcde75</con:targetTestCase><con:properties><con:property><con:name>File</con:name></con:property><con:property><con:name>ValuesToUpdate</con:name></con:property></con:properties><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:testStep type="calltestcase" name="loop" id="04d32acc-49df-4540-9529-cd821a0e9f6c"><con:settings/><con:config xsi:type="con:RunTestCaseStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:targetTestCase>b13eab11-efb7-4e27-9f19-1d04debddef2</con:targetTestCase><con:properties/><con:returnProperties/><con:runMode>PARALLELL</con:runMode></con:config></con:testStep><con:tearDownScript/><con:properties><con:property><con:name>FileName</con:name><con:value>data.xls</con:value></con:property><con:property><con:name>index</con:name><con:value>1</con:value></con:property><con:property><con:name>Count</con:name><con:value>0</con:value></con:property><con:property><con:name>username</con:name><con:value>"user17"</con:value></con:property><con:property><con:name>new_username</con:name><con:value>"14user"</con:value></con:property><con:property><con:name>StopLoop</con:name><con:value>T</con:value></con:property><con:property><con:name>id</con:name><con:value>"791"</con:value></con:property><con:property><con:name>firstname</con:name><con:value>"Monica"</con:value></con:property><con:property><con:name>lastname</con:name><con:value>"Jung"</con:value></con:property><con:property><con:name>password</con:name><con:value>"Password129"</con:value></con:property><con:property><con:name>phone</con:name><con:value>"28114113"</con:value></con:property><con:property><con:name>uid_username</con:name><con:value>"user15"</con:value></con:property><con:property><con:name>commonColumns</con:name><con:value>[id,username,firstname,lastname,password,phone]</con:value></con:property><con:property><con:name>testColumns</con:name><con:value>[new_username]</con:value></con:property><con:property><con:name>testRows</con:name><con:value>[1, 2, 3, 6</con:value></con:property><con:property><con:name>rowdataCommon</con:name><con:value>["791", "user17", "Monica", "Jung", "Password129", "28114113"]</con:value></con:property><con:property><con:name>rowdataTest</con:name><con:value>["14user", "14user"]</con:value></con:property><con:property><con:name>email</con:name><con:value/></con:property><con:property><con:name>ValuesToUpdate</con:name><con:value>common: 2#1="14user"</con:value></con:property></con:properties></con:testCase><con:properties><con:property><con:name>CurrentTestCase</con:name><con:value>createuser</con:value></con:property><con:property><con:name>TEST</con:name><con:value>TESTING</con:value></con:property><con:property><con:name>id</con:name><con:value>786</con:value></con:property><con:property><con:name>username</con:name><con:value>user12</con:value></con:property><con:property><con:name>firstname</con:name><con:value>Sam</con:value></con:property><con:property><con:name>lastname</con:name><con:value>Marshall</con:value></con:property><con:property><con:name>password</con:name><con:value>Password124</con:value></con:property><con:property><con:name>Next</con:name><con:value>2</con:value></con:property><con:property><con:name>StopLoop</con:name><con:value>F</con:value></con:property><con:property><con:name>Count</con:name><con:value/></con:property><con:property><con:name>FileName</con:name><con:value>data.xls</con:value></con:property></con:properties>
+    <con:setupScript/><con:tearDownScript/>
+  </con:testSuite>
+  <con:properties><con:property><con:name>Count</con:name><con:value>0</con:value></con:property></con:properties>
+  <con:wssContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
+<con:sensitiveInformation/></con:soapui-project>

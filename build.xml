@@ -1,0 +1,19 @@
+﻿ <project name="genTestReport" default="gen" basedir=".">
+        <description>
+                Generate the HTML report from JUnit XML files
+        </description>
+
+        <target name="gen">
+                <property name="genReportDir" location="${basedir}/unitTestReports"/>
+                <tstamp>
+                <format property="time.stamp" pattern="yy-MM-dd_HHmmss"/>
+                </tstamp>         
+                <mkdir dir="${genReportDir}"/>
+                <junitreport todir="${basedir}/unitTestReports">
+                        <fileset dir="${basedir}">
+                                <include name="**/TEST-*.xml"/>
+                        </fileset>
+                        <report format="frames" todir="${genReportDir}/${time.stamp}"/>
+                </junitreport>
+        </target>
+</project>
