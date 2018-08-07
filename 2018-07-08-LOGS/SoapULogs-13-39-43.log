@@ -1,0 +1,173 @@
+Tue Aug 07 13:22:05 NZST 2018:INFO:initialized soapui-settings from [C:\Users\Admin\soapui-settings.xml]
+Tue Aug 07 13:22:08 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+Tue Aug 07 13:22:10 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:10 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:10 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+Tue Aug 07 13:22:11 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:11 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:11 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+Tue Aug 07 13:22:11 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:11 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:11 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+Added AutoFactory for [PluginPrefs]
+Tue Aug 07 13:22:12 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:12 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:12 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Tue Aug 07 13:22:13 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:13 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:13 NZST 2018:INFO:5 plugins loaded in 5094 ms
+Tue Aug 07 13:22:13 NZST 2018:INFO:All plugins loaded
+Tue Aug 07 13:22:13 NZST 2018:INFO:initialized soapui-settings from [C:\Users\Admin\soapui-settings.xml]
+Tue Aug 07 13:22:14 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\readyapi-postman-1.0.1.jar]
+Tue Aug 07 13:22:15 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:15 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:15 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\soapui-swagger-plugin-2.2-dist.jar]
+Tue Aug 07 13:22:16 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:16 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:16 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\readyapi-swaggerhub-plugin-1.0.jar]
+Tue Aug 07 13:22:17 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:17 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:17 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\ready-uxm-plugin-1.0.1-dist.jar]
+Added AutoFactory for [PluginPrefs]
+Tue Aug 07 13:22:18 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:18 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:18 NZST 2018:INFO:Adding plugin from [C:\Users\Admin\.soapuios\plugins\ready-mqtt-plugin-dist.jar]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginPanelBuilder]
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Added AutoFactory for [PluginTestStep]
+Tue Aug 07 13:22:18 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoDiscoveryMethodFactory], see error log for details
+Tue Aug 07 13:22:18 NZST 2018:ERROR:An error occurred [com.eviware.soapui.plugins.auto.factories.AutoImportMethodFactory], see error log for details
+Tue Aug 07 13:22:18 NZST 2018:INFO:5 plugins loaded in 3827 ms
+Tue Aug 07 13:22:18 NZST 2018:INFO:All plugins loaded
+Tue Aug 07 13:22:19 NZST 2018:INFO:Loading workspace from [C:\Users\Admin\default-soapui-workspace.xml]
+Tue Aug 07 13:22:19 NZST 2018:INFO:Loaded project from [file:/C:/SOAPUI/Example/Project-soapui-project.xml]
+Tue Aug 07 13:22:19 NZST 2018:INFO:Loaded project from [file:/C:/SOAPUI/TEL-MEDIATION_API/TEL-soapui-project.xml]
+Tue Aug 07 13:22:20 NZST 2018:INFO:Used java version: 1.8.0_152
+Scheduling garbage collection every 60 seconds
+Tue Aug 07 13:32:55 NZST 2018:ERROR:An error occurred [startup failed:
+Script1.groovy: 15: expecting EOF, found ':' @ line 15, column 79.
+   seRunner#").getTestCase()https://www.goo
+                                 ^
+org.codehaus.groovy.syntax.SyntaxException: expecting EOF, found ':' @ line 15, column 79.
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:143)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:111)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:237)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:167)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:931)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:694)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:706)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:742)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:733)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:136)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.<init>(WsdlGroovyScriptTestStep.java:89)
+	at com.eviware.soapui.impl.wsdl.teststeps.registry.GroovyScriptStepFactory.buildTestStep(GroovyScriptStepFactory.java:38)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.createTestStepFromConfig(WsdlTestCase.java:296)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCase.<init>(WsdlTestCase.java:121)
+	at com.eviware.soapui.impl.wsdl.WsdlTestSuite.buildTestCase(WsdlTestSuite.java:107)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlRunTestCaseTestStep.createTestCase(WsdlRunTestCaseTestStep.java:381)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlRunTestCaseTestStep.run(WsdlRunTestCaseTestStep.java:151)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: Script1.groovy:15:79: expecting EOF, found ':'
+	at groovyjarjarantlr.Parser.match(Parser.java:211)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:783)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:134)
+	... 31 more
+
+1 error
+], see error log for details
+Tue Aug 07 13:32:55 NZST 2018:ERROR:An error occurred [No match found], see error log for details
+Tue Aug 07 13:32:55 NZST 2018:ERROR:An error occurred [startup failed:
+Script2.groovy: 15: expecting EOF, found ':' @ line 15, column 79.
+   seRunner#").getTestCase()https://www.goo
+                                 ^
+org.codehaus.groovy.syntax.SyntaxException: expecting EOF, found ':' @ line 15, column 79.
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:143)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.parseCST(AntlrParserPlugin.java:111)
+	at org.codehaus.groovy.control.SourceUnit.parse(SourceUnit.java:237)
+	at org.codehaus.groovy.control.CompilationUnit$1.call(CompilationUnit.java:167)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:931)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:593)
+	at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:569)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:546)
+	at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:298)
+	at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:268)
+	at groovy.lang.GroovyShell.parseClass(GroovyShell.java:694)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:706)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:742)
+	at groovy.lang.GroovyShell.parse(GroovyShell.java:733)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.compile(SoapUIGroovyScriptEngine.java:136)
+	at com.eviware.soapui.support.scripting.groovy.SoapUIGroovyScriptEngine.run(SoapUIGroovyScriptEngine.java:87)
+	at com.eviware.soapui.impl.wsdl.teststeps.WsdlGroovyScriptTestStep.run(WsdlGroovyScriptTestStep.java:141)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.runTestStep(AbstractTestCaseRunner.java:211)
+	at com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner.runCurrentTestStep(WsdlTestCaseRunner.java:47)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:138)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestCaseRunner.internalRun(AbstractTestCaseRunner.java:46)
+	at com.eviware.soapui.impl.wsdl.support.AbstractTestRunner.run(AbstractTestRunner.java:128)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: Script2.groovy:15:79: expecting EOF, found ':'
+	at groovyjarjarantlr.Parser.match(Parser.java:211)
+	at org.codehaus.groovy.antlr.parser.GroovyRecognizer.compilationUnit(GroovyRecognizer.java:783)
+	at org.codehaus.groovy.antlr.AntlrParserPlugin.transformCSTIntoAST(AntlrParserPlugin.java:134)
+	... 26 more
+
+1 error
+], see error log for details
+Tue Aug 07 13:34:18 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:34:18 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Tue Aug 07 13:34:18 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Tue Aug 07 13:34:18 NZST 2018:DEBUG:Connection shut down
+Tue Aug 07 13:34:21 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:34:21 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Tue Aug 07 13:34:22 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Tue Aug 07 13:34:22 NZST 2018:DEBUG:Connection shut down
+Tue Aug 07 13:34:24 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:34:24 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Tue Aug 07 13:34:25 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Tue Aug 07 13:34:25 NZST 2018:DEBUG:Connection shut down
+Tue Aug 07 13:39:21 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:39:21 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Tue Aug 07 13:39:21 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Tue Aug 07 13:39:21 NZST 2018:DEBUG:Connection shut down
+Tue Aug 07 13:39:24 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:39:24 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Tue Aug 07 13:39:25 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Tue Aug 07 13:39:25 NZST 2018:DEBUG:Connection shut down
+Tue Aug 07 13:39:28 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:39:28 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Tue Aug 07 13:39:28 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Tue Aug 07 13:39:28 NZST 2018:DEBUG:Connection shut down
+Tue Aug 07 13:39:41 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:39:41 NZST 2018:DEBUG:Sending request: POST /v2/user HTTP/1.1
+Tue Aug 07 13:39:41 NZST 2018:DEBUG:Receiving response: HTTP/1.1 200 OK
+Tue Aug 07 13:39:41 NZST 2018:DEBUG:Connection shut down
+Tue Aug 07 13:39:42 NZST 2018:DEBUG:Attempt 1 to execute request
+Tue Aug 07 13:39:42 NZST 2018:DEBUG:Sending request: POST /v2/user HTTP/1.1
+Tue Aug 07 13:39:43 NZST 2018:DEBUG:Receiving response: HTTP/1.1 200 OK
+Tue Aug 07 13:39:43 NZST 2018:DEBUG:Connection shut down

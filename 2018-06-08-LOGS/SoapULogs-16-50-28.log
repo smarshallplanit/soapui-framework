@@ -1,0 +1,206 @@
+Mon Aug 06 15:23:14 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:23:14 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:23:14 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:23:14 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:23:16 NZST 2018:ERROR:An error occurred [The input file was not found], see error log for details
+Mon Aug 06 15:24:23 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:24:23 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:24:23 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:24:23 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:24:24 NZST 2018:ERROR:An error occurred [The input file was not found], see error log for details
+Mon Aug 06 15:24:43 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:24:43 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:24:43 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:24:43 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:24:45 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:24:45 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:24:45 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:24:45 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:29:10 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:29:10 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:29:10 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:29:10 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:29:15 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:29:15 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:29:15 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:29:15 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:29:19 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:29:19 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:29:19 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:29:19 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:29:44 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:29:44 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:29:44 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:29:44 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:29:47 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:29:47 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:29:47 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:29:47 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:29:51 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:29:51 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:29:51 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:29:51 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:29:58 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:29:58 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:29:58 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:29:58 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:30:01 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:30:01 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:30:01 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:30:01 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:30:04 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:30:04 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:30:04 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:30:04 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:34:28 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:34:28 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:34:28 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:34:28 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:34:31 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:34:31 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:34:31 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:34:31 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:34:34 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:34:34 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:34:34 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:34:34 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:36:25 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:36:25 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:36:25 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:36:25 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:36:28 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:36:28 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:36:28 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:36:28 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:36:30 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:36:30 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:36:30 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:36:30 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:36:47 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:36:47 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:36:47 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:36:47 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:36:47 NZST 2018:ERROR:An error occurred [C:\SOAPUI\Example\data.xls (The process cannot access the file because it is being used by another process)], see error log for details
+Mon Aug 06 15:36:54 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:36:54 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:36:54 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:36:54 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:36:56 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:36:56 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:36:57 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:36:57 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:37:13 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:37:13 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:37:13 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:37:13 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:37:16 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:37:16 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:37:16 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:37:16 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:37:19 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:37:19 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:37:19 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:37:19 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:37:23 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:37:23 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:37:23 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:37:23 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:37:26 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:37:26 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:37:26 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:37:26 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:37:30 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:37:30 NZST 2018:DEBUG:Sending request: PUT /v2/user/ HTTP/1.1
+Mon Aug 06 15:37:30 NZST 2018:DEBUG:Receiving response: HTTP/1.1 405 Method Not Allowed
+Mon Aug 06 15:37:30 NZST 2018:DEBUG:Connection shut down
+Mon Aug 06 15:39:17 NZST 2018:INFO:Saved project [Project] to [C:\Users\Admin\AppData\Local\Temp\1533526757463-0\Project-soapui-project.xml - 81695 bytes
+Mon Aug 06 15:39:17 NZST 2018:INFO:Loaded project from [file:/C:/Users/Admin/AppData/Local/Temp/1533526757463-0/Project-soapui-project.xml]
+Mon Aug 06 15:39:17 NZST 2018:INFO:Saved project [Project] to [C:\Users\Admin\AppData\Local\Temp\1533526757463-0\Project-soapui-project.xml - 81695 bytes
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 169339 bytes
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 169339 bytes
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 169339 bytes
+Mon Aug 06 15:45:28 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 15:48:50 NZST 2018:DEBUG:Sending request to https://www.alertsite.com/restapi/v2/devices/list/locations
+Mon Aug 06 15:48:50 NZST 2018:DEBUG:<Request api_version="2"><Header><UserAgent>soapUI-5.4.0</UserAgent></Header><Body><Command><Name>ListLocations</Name><Parameters>server_attrib=ITEST</Parameters></Command></Body></Request>
+Mon Aug 06 15:48:51 NZST 2018:DEBUG:Attempt 1 to execute request
+Mon Aug 06 15:48:51 NZST 2018:DEBUG:Sending request: POST /restapi/v2/devices/list/locations HTTP/1.1
+Mon Aug 06 15:48:51 NZST 2018:DEBUG:Receiving response: HTTP/1.1 200 OK
+Mon Aug 06 15:48:51 NZST 2018:DEBUG:Connection can be kept alive indefinitely
+Mon Aug 06 15:48:51 NZST 2018:DEBUG:Got response from https://www.alertsite.com/restapi/v2/devices/list/locations
+Mon Aug 06 15:48:51 NZST 2018:DEBUG:<Response>
+  <Status>0</Status>
+  <Message>No errors.</Message>
+  <LocationList>
+    <Location>
+    <LocCode>72</LocCode>
+    <LocName>Boston,%20Massachusetts</LocName>
+    <LocIPs>192.34.84.133</LocIPs>
+  </Location>
+  <Location>
+    <LocCode>73</LocCode>
+    <LocName>Boston,%20Massachusetts%20-%20Expedient</LocName>
+    <LocIPs>209.190.164.235</LocIPs>
+  </Location>
+  <Location>
+    <LocCode>5010</LocCode>
+    <LocName>London,%20UK%20-%20AboveNet</LocName>
+    <LocIPs>89.106.176.53</LocIPs>
+  </Location>
+  <Location>
+    <LocCode>5130</LocCode>
+    <LocName>London,%20UK%20-%20Docklands</LocName>
+    <LocIPs>77.74.198.156</LocIPs>
+  </Location>
+  <Location>
+    <LocCode>42</LocCode>
+    <LocName>Los%20Angeles,%20California%20-%20Level3</LocName>
+    <LocIPs>192.240.126.74</LocIPs>
+  </Location>
+  <Location>
+    <LocCode>31</LocCode>
+    <LocName>San%20Francisco,%20California</LocName>
+    <LocIPs>45.58.38.252</LocIPs>
+  </Location>
+
+  </LocationList>
+</Response>
+
+Mon Aug 06 15:49:27 NZST 2018:DEBUG:Connection closed
+Mon Aug 06 16:22:27 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:22:27 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 168645 bytes
+Mon Aug 06 16:22:27 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:22:27 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:22:27 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 168645 bytes
+Mon Aug 06 16:22:27 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 168642 bytes
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 168642 bytes
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 168642 bytes
+Mon Aug 06 16:23:13 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:26:30 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:26:30 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 147773 bytes
+Mon Aug 06 16:26:30 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:26:30 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:26:30 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 147773 bytes
+Mon Aug 06 16:26:30 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:34:19 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:34:19 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 147800 bytes
+Mon Aug 06 16:34:19 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:34:19 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:34:19 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 147800 bytes
+Mon Aug 06 16:34:19 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:47:14 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:47:14 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 147769 bytes
+Mon Aug 06 16:47:14 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]
+Mon Aug 06 16:47:15 NZST 2018:INFO:Saved project [Project] to [C:\SOAPUI\Example\Project-soapui-project.xml - 81701 bytes
+Mon Aug 06 16:47:15 NZST 2018:INFO:Saved project [TEL] to [C:\SOAPUI\TEL-MEDIATION_API\TEL-soapui-project.xml - 147769 bytes
+Mon Aug 06 16:47:15 NZST 2018:INFO:Saved workspace to [C:\Users\Admin\default-soapui-workspace.xml]

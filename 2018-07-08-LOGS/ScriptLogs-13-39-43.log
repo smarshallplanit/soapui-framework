@@ -1,0 +1,25 @@
+Tue Aug 07 13:39:40 NZST 2018:INFO:C:\SOAPUI\Example
+Tue Aug 07 13:39:40 NZST 2018:INFO:data.xls
+Tue Aug 07 13:39:40 NZST 2018:INFO:start of filterdatadriver
+Tue Aug 07 13:39:40 NZST 2018:INFO:1---- testindex ----
+Tue Aug 07 13:39:40 NZST 2018:INFO:1 RUN before INCREASE
+Tue Aug 07 13:39:40 NZST 2018:INFO:2 RUN AFTER INCREASE
+Tue Aug 07 13:39:41 NZST 2018:INFO:4???????????????????????????????????
+Tue Aug 07 13:39:41 NZST 2018:INFO:2 RUN during loop else
+Tue Aug 07 13:39:41 NZST 2018:INFO:end loop value after get property  F
+Tue Aug 07 13:39:41 NZST 2018:INFO:com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner@693a74
+Tue Aug 07 13:39:41 NZST 2018:INFO:Running testcase again
+Tue Aug 07 13:39:41 NZST 2018:INFO:createuser
+Tue Aug 07 13:39:41 NZST 2018:INFO:com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner@693a74
+Tue Aug 07 13:39:41 NZST 2018:INFO:C:\SOAPUI\Example
+Tue Aug 07 13:39:41 NZST 2018:INFO:data.xls
+Tue Aug 07 13:39:41 NZST 2018:INFO:start of filterdatadriver
+Tue Aug 07 13:39:42 NZST 2018:INFO:2---- testindex ----
+Tue Aug 07 13:39:42 NZST 2018:INFO:2 RUN before INCREASE
+Tue Aug 07 13:39:42 NZST 2018:INFO:3 RUN AFTER INCREASE
+Tue Aug 07 13:39:42 NZST 2018:INFO:4???????????????????????????????????
+Tue Aug 07 13:39:42 NZST 2018:INFO:and testindex== 2 Setting the stoploop property now...
+Tue Aug 07 13:39:42 NZST 2018:INFO:3RUN AFTER LOOP IS OVER
+Tue Aug 07 13:39:43 NZST 2018:INFO:end loop value after get property  T
+Tue Aug 07 13:39:43 NZST 2018:INFO:com.eviware.soapui.impl.wsdl.testcase.WsdlTestCaseRunner@693a74
+Tue Aug 07 13:39:43 NZST 2018:INFO:Exit Groovy Data Source Looper
